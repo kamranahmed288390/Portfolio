@@ -1,11 +1,12 @@
-import React from 'react'
+import OverlayMenu from "./OverlayMenu";
 
-const Navbar = () => {
-  return (
-    <div>
-      Navbar
-    </div>
+export default function Navbar(){
+  return(
+    <>
+    <nav>
+      
+    </nav>
+    <OverlayMenu />
+    </>
   )
 }
-
-export default Navbar

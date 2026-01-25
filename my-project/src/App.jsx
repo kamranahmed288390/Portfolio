@@ -8,12 +8,14 @@ import Skills from "./sections/Skills";
 import Projects from "./sections/Projects";
 import Footer from "./sections/Footer";
 import ParticlesBackground from "./components/ParticlesBackground";
+import CustomCursor from "./components/CustomCursor";
 
 
 
 export default function App(){
   return (
     <div className="relative gradient text-white">
+      <CustomCursor/>
       <ParticlesBackground/>
       <Navbar/>
       <Home/>
